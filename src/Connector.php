@@ -187,6 +187,7 @@ class Connector implements ConnectorInterface
         curl_setopt($http, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($http, CURLINFO_HEADER_OUT, true);
         curl_setopt($http, CURLOPT_URL, $url);
+        curl_setopt($http, CURLOPT_FOLLOWLOCATION, true);
 
         if (!$this->getSslVerifyPeer()) {
             curl_setopt($http, CURLOPT_SSL_VERIFYPEER, false);
