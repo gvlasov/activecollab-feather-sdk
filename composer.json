@@ -1,5 +1,5 @@
 {
-    "name": "activecollab/activecollab-feather-sdk",
+    "name": "gvlasov/activecollab-feather-sdk",
     "type": "library",
     "description": "This is a simple PHP library that makes communication with Active Collab API easy",
     "keywords": [
